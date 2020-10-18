@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MPSC Registration</title>
+	<h1 style="text-align: center; color: indigo">MPSC Registration Form 2021</h1>
+</head>
+
+<body>
+	<form action="/action_page.php" method="get" target="_blank">
+		<fieldset>
+			<legend><b>MPSC Registration</b></legend>
+			<section>
+			<header><h3 style="text-align: center;">Student's Personal Information</h3></header>
+			First Name:
+			<input type="text" name="First Name" required><br>
+			<br>Middle Name:
+			<input type="text" name="Middle Name"><br>
+			<br>Last Name:
+			<input type="text" name="Last Name" required><br>
+
+			<br><label>   
+			Gender :  
+			</label><br>  
+			<input type="radio" value="Male" name="gender" checked > Male   
+			<input type="radio" value="Female" name="gender"> Female   
+			<input type="radio" value="Other" name="gender"> Other <br> 
+			
+			<br><label>   
+			Phone :  
+			</label>  
+			<input type="text" name="country code"  value="+91" size="2"/>   
+			<input type="text" name="phone" size="10"/> <br> 
+
+			<br>Email-ID :
+			<input type="email" name="email" required><br>
+			<br><label for="myfile">Students Photo:</label>
+			<select name="id Proof" required>
+			<option value="Adhar" selected>Adhar Card</option>
+			<option value="Ration">Ration Card</option>
+			<option value="Voter">Voter Id</option>
+			<option value="birth">Birth Certificate</option>
+			</select>
+			<input type="file" id="myfile" name="myfile" required><br>
+			<br>Address:
+			<br><textarea rows="4" cols="30" placeholder="Street Name, Pin Code, etc"></textarea><br>
+			</section>
+		<hr>
+			
+		</fieldset>
+
+
+		<fieldset>
+
+				<legend><b>Educational Information</b></legend>
+
+				<label for="College's Names">Choose Your College Name from list:</label>
+				
+			  	<select name="College's Names">
+			    <option value="Walchand Collegeof Engineering, Sangli">Walchand Collegeof Engineering, Sangli</option>
+			    <option value="COEP, Pune">COEP, Pune</option>
+			    <option value="PICT, Pune">PICT, Pune</option>
+			    <option value="KIT, Kolhapur">KIT, Kolhapur</option>
+			    <option value="RIT, Islampur">RIT, Islampur</option>
+			    <option value="VJTI, Mumbai">VJTI, Mumbai</option>
+			    <option value="PICT, Pune">PICT, Pune</option>
+			    <option value="KIT, Kolhapur">KIT, Kolhapur</option>
+			    <option value="RIT, Islampur">RIT, Islampur</option>
+			  	</datalist>
+
+				</select><br><br>
+
+
+
+			<label>Choose your University Name from the list :</label>
+			<select name="University">
+			
+				<option value="Shivaji University">Shivaji University</option>
+				<option value="Savitribai Phule Pune University">Savitribai Phule Pune University</option>
+				<option value="University of Mumbai">University of Mumbai</option>
+				<option value="Indian Institute of Technology Bombay">Indian Institute of Technology Bombay</option>
+				<option value="Tata institute of Fundamental Research">Tata institute of Fundamental Research</option>
+
+			</select> 
+			<br><br>
+
+			
+			<label>Choose your Branch :</label>
+			<select name="branch">
+					<option value="Computer Science" selected>Computer Science</option>
+					<option value="Electical">Electical</option>
+					<option value="Electronics">Electronics</option>
+					<option value="Mechanical">Mechanical</option>
+					<option value="Civil">Civil</option>
+			</select><br><br>
+			Exam Seat Number :
+				<input type="text" size="10"><br><br>
+				<label>Choose your Qualification:</label>
+				<select name="qualifications">
+					<option value="Higher Certificate">Higher Certificate</option>
+					<option value="Bachelor&#39;s Degree" selected>Bachelor&#39;s Degree</option>
+					<option value="National Diploma">National Diploma</option>
+					<option value="Master&#39;s Degree">Master&#39;s Degree</option>
+				</select>
+
+
+
+		</fieldset>
+
+
+
+		<fieldset>
+			<legend><b>Exam Preferences</b></legend>
+			<label>Choose a  MPSC Exam Paper Branch:</label>
+			<select name="Paper Branch">
+				<option value="MPSC Prelims 2020" selected>MPSC Prelims 2020</option>
+				<option v alue="MPSC Subordinate Services (Group B) Prelims 2020 ">MPSC Subordinate Services (Group B) Prelims 2020</option>
+				<option value="MPSC Engineering Services Prelims 2020">MPSC Engineering Services Prelims 2020</option>
+				<option value=""></option>
+			</select><br><br>
+  
+			<label>Choose a Exam City:</label>
+			<select name="Exam City">
+				<optgroup label="Maharashtra">
+					<option value="Pune">Pune</option>
+					<option value="Mumbai">Mumbai</option>
+					<option value="Kolahapur">Kolahapur</option>
+					<option value="Sangli">Sangli</option>
+				</optgroup>
+				<optgroup label="Assam">
+					<option value="Guwahati">Guwahati</option>
+					<option value="Sivasagar">Sivasagar</option>
+				</optgroup>
+				<optgroup label="Kerala">
+					<option value="Kochi">Kochi</option>
+					<option value="Thiruvananthapuram">Thiruvananthapuram</option>
+				</optgroup>
+				<optgroup label="Karnataka">
+					<option value="Bengaluru">Bengaluru</option>
+					<option value="Hubli">Hubli</option>
+				</optgroup>
+			</select>
+			<br><br>
+			</fieldset>
+
+
+	</form>
+
+
+
+</body>
+
